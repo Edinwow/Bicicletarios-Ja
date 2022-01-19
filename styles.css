@@ -1,0 +1,133 @@
+/* ------------------------ Default ------------------------ */
+  
+  * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--primary-color);
+  }
+  
+  body {
+    background: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  mark {
+    background-color: #f1b32c;
+  }
+
+
+/* Scroll settings */
+    body::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: black;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #FFC700;
+    border-radius: 20px;
+  }  
+  
+/* ------------------------ Header ------------------------ */
+  
+  header {
+    width: 100%;
+  }
+  
+  header figure img {
+    width: 400px;
+    display: block;
+    margin: 30px auto 30px auto;
+  }
+
+  main .primeiro {
+      text-align: center;
+      margin: 50px auto;
+      max-width: 800px;
+      font-size: 30px;
+      line-height: 40px;
+  }
+
+  main .peticao, main .exponha {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 800px;
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  main .peticao a, main .exponha a {
+    color: #FFC700;
+  }
+
+  main .peticao a:hover, main .exponha a:hover {
+    text-decoration: underline;
+    color: black;
+  }
+
+  main .conteudo .shopping {
+      margin-bottom: 40px;
+  }
+
+  main .conteudo {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .conteudo .titulo {
+    text-align: center;
+    margin: 50px 0 30px 0;
+    max-width: 800px;
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  main .conteudo .detalhes .nome {
+      font-size: 30px;
+      line-height: 40px;
+      color: #FFC700;
+  }
+
+  main .conteudo figure img {
+    max-width: 220px;
+    float: left;
+    margin: 10px 10px 0 0;
+}
+
+main .conteudo .detalhes .avaliacao {
+    line-height: 20px;
+}
+
+  main .conteudo .detalhes .nome span {
+    font-size: 15px;
+    line-height: 20px;
+    color: rgb(90, 90, 90);
+    text-decoration: underline;
+}
+
+  footer {
+    position: fixed;
+    bottom: 0px;
+    right: 10px;
+    opacity: 0;
+    transition-duration: 1s;
+    width: 120px;
+  }
+  
+  footer:hover {
+      opacity: 1;
+  }
+
+  footer img {
+      width: 100%;
+  }
