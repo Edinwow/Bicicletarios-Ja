@@ -94,28 +94,26 @@
 
   main .conteudo .detalhes .nome {
       font-size: 30px;
-      line-height: 40px;
+      line-height: 20px;
       color: #FFC700;
   }
+
+  main .conteudo .detalhes .nome a {
+    font-size: 15px;
+    color: rgb(90, 90, 90);
+}
 
   main .conteudo figure img {
     max-width: 220px;
     float: left;
-    margin: 10px 10px 0 0;
+    margin: 0 10px 0 0;
 }
 
 main .conteudo .detalhes .avaliacao {
     line-height: 20px;
 }
 
-  main .conteudo .detalhes .nome span {
-    font-size: 15px;
-    line-height: 20px;
-    color: rgb(90, 90, 90);
-
-}
-
-main  .shopping .detalhes .nome span a:hover {
+main  .shopping .detalhes .nome a:hover {
     text-decoration: underline;
 }
 
@@ -135,3 +133,77 @@ main  .shopping .detalhes .nome span a:hover {
   footer img {
       width: 100%;
   }
+
+  @media only screen and (min-width: 100px) and (max-width: 850px) {
+    header figure img {
+        width: 300px;
+        max-width: 90%;
+      }
+
+    main .primeiro {
+        margin: 30px 15px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    main .peticao, main .exponha {
+        margin: 50px 15px;
+        font-size: 20px;
+        line-height: 22px;
+      }
+
+      main .conteudo {
+        max-width: 100%;
+        margin: 0 auto;
+      }
+
+    .conteudo .titulo {
+        margin: 50px 15px 30px 15px;
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    main .conteudo .detalhes .nome {
+        font-size: 30px;
+        line-height: 40px;
+        color: #FFC700;
+    }
+  
+    main .conteudo figure {
+        margin: 0 auto;
+    }
+
+    main .conteudo figure img {
+      max-width: 80%;
+      float: none;
+      margin: 0 10%;
+  }
+
+  main .conteudo .detalhes .nome {
+    font-size: 22px;
+    line-height: 20px;
+    color: #FFC700;
+    margin: 0 10%;
+    text-align: center;
+}
+
+main .conteudo .detalhes .nome a {
+  font-size: 15px;
+  color: rgb(90, 90, 90);
+  margin-bottom: 10px;
+}
+
+  
+  main .conteudo .detalhes .avaliacao {
+      text-align: center;
+      line-height: 20px;
+      max-width: 100%;
+      padding: 0 10%;
+      margin-top: 6px;
+  }
+      
+      footer {
+          display: none;
+      }
+
+}
