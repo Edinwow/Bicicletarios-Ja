@@ -54,8 +54,8 @@
       text-align: center;
       margin: 50px auto;
       max-width: 800px;
-      font-size: 30px;
-      line-height: 40px;
+      font-size: 24px;
+      line-height: 30px;
   }
 
   main .peticao, main .exponha {
@@ -70,7 +70,7 @@
     color: #FFC700;
   }
 
-  main .peticao a:hover, main .exponha a:hover {
+  main .peticao a:hover, main .exponha a:hover, main .primeiro p a:hover {
     text-decoration: underline;
     color: black;
   }
@@ -112,6 +112,10 @@ main .conteudo .detalhes .avaliacao {
     font-size: 15px;
     line-height: 20px;
     color: rgb(90, 90, 90);
+
+}
+
+main  .shopping .detalhes .nome span a:hover {
     text-decoration: underline;
 }
 
